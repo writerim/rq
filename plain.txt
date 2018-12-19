@@ -1,0 +1,57 @@
+Древо устройств
+
+
+Устройства и в нем просто лежит дерево
+К устройству добавляется тип
+devices
+id | device_id | type_id | title 
+1       0         1
+
+
+К какой категории относится
+devices_extra_types
+devices_id | extrta_type
+
+
+У каждой группы устройств есть свой набор полей
+
+
+
+Типы устройств содержат в себе
+интерфейс через который идет общение
+назвение библиотеки
+тип устройства ( конечное, базовая станция и так далее)
+
+devices_type
+id | interface | ident | title | group_device
+1       1         ERD3    ERD3
+
+интерфейс определяет по какому шаблону показхывать клиенту отображение
+и я могу определить 
+
+
+
+interfaces
+1 - end device
+2 - converter interfaces
+3 - base station lora
+4 - mqtt broker
+5 - counter impulses
+
+
+
+дополнительные поля для устройств
+id | field | value | device
+
+fields
+id | ident | title
+
+
+
+
+
+
+
+
+
+

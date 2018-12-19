@@ -1,0 +1,10 @@
+nbproject
+version.txt
+session
+vendor\codeigniter\framework\application\config\config.php
+vendor\codeigniter\framework\application\config\database.php
+vendor\codeigniter\framework\user_guide
+vendor\codeigniter\framework\application\views_c\*
+version.txt
+vendor/codeigniter/framework/application/views_c/*
+vendor/codeigniter/framework/application/views_c/21b57c727950492e0aaa9eca4c9fe068773defb5_0.file.index.tpl.php
